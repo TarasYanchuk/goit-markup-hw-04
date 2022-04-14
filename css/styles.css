@@ -25,6 +25,7 @@
 }
 .img {
   display: block;
+  max-width: 100%;
 }
 .body {
   background-color: var(--primary-bg-color);
@@ -93,6 +94,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
@@ -110,6 +112,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .page-header .link {
   color: var(--primary-bg-color);
@@ -185,12 +188,15 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .section-about-text {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
+  letter-spacing: 0.03em;
 }
 /*Work-photo*/
 .work-photo .item {
@@ -214,6 +220,8 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .section-team-title {
   margin-bottom: 10px;
@@ -222,6 +230,8 @@
   font-size: 16px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .section-team-text {
   margin-top: 0px;
@@ -230,6 +240,8 @@
   font-size: 16px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .section-team-holder {
   padding-top: 30px;
@@ -299,6 +311,7 @@
   font-size: 18px;
   line-height: 2;
   color: var(--primary-text-color);
+  letter-spacing: 0.06em;
 }
 .breadcrumbs .section-subtitle {
   margin-top: 0px;
@@ -308,6 +321,7 @@
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
 }
 /*Footer*/
 .footer .logo {
@@ -320,27 +334,33 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-.footer .link {
+.footer-container {
   margin-top: 20px;
+  margin-bottom: 60px;
+}
+.footer-container .item {
   margin-bottom: 9px;
-  display: block;
+}
+.footer-container .item:last-child {
+  margin-bottom: 0px;
+}
+.footer .link {
   color: var(--primary-bg-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .footer .contact {
-  margin-bottom: 9px;
-  display: block;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .footer .address-contact {
   font-family: "Roboto";
@@ -348,4 +368,5 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
